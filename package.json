@@ -10,7 +10,7 @@
     "format": "prettier --write src",
     "lint": "eslint --ext .ts,.js,.vue src",
     "lint:fix": "eslint --ext .ts,.js,.vue src --fix",
-    "prepare": "husky",
+    "prepare": "npx husky-init && husky install",
     "lint-staged": "npx lint-staged"
   },
   "dependencies": {
@@ -28,7 +28,7 @@
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-vue": "^10.0.0",
     "globals": "^16.0.0",
-    "husky": "^9.1.7",
+    "husky": "^8.0.0",
     "lint-staged": "^15.5.0",
     "prettier": "^3.5.3",
     "typescript": "~5.7.2",
